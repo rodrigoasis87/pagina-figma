@@ -1,0 +1,23 @@
+body {
+  background-color: #F8C7C8;
+}
+
+.row.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+.items {
+  list-style: none;
+}
+
+.items :last-child {
+  border-radius: 10px;
+  border: none;
+  background-color: #6a097d;
+}
