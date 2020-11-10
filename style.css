@@ -1,5 +1,7 @@
 body {
   background-color: #F8C7C8;
+  font-family: 'Mont', 'Barlow', sans-serif;
+  color: #1D1C24;
 }
 
 .row.menu {
@@ -14,10 +16,11 @@ body {
 
 .items {
   list-style: none;
+
 }
 
 .items :last-child {
   border-radius: 10px;
   border: none;
-  background-color: #6a097d;
+  background-color: #8468F5;
 }
